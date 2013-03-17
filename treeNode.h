@@ -18,9 +18,10 @@ class TreeNode {
 	TreeNode	*rightChild;
 
 	void 		insert(int x);
-	void		remove(int x);
-	void		deletemin();
-	void		deletemax();
+	TreeNode	*remove(int x);
+	TreeNode	*deletemin();
+	int			getmin();
+	TreeNode	*deletemax();
 	void		preorder();
 	void		inorder();
 
